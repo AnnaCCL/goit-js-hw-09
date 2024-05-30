@@ -56,6 +56,10 @@ function handleSubmit(event) {
   }
 
   console.log(formData);
+  formData = {
+    email: '',
+    message: '',
+  };
   localStorage.removeItem('feedback-form-state');
   form.reset();
 }
